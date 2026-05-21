@@ -2,13 +2,13 @@
 
 Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live website creation, platform onboarding, SEO techniques, and an open Q&A session. The brand uses a bold pink (#ff0083) and white color palette with dark gray accents, projecting a modern, energetic, and approachable tech identity aimed at empowering non-technical entrepreneurs to build professional websites quickly.
 
-Source: https://zappy-bb098b57.zappy5.app
+Source: https://example.com
 
 ---
 
 ## איך לבנות אתר מקצועי מאפס — Zappy וובינר
 
-URL: https://zappy-bb098b57.zappy5.app
+URL: https://example.com
 Description: Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live webs
 
 איך לבנות אתר מקצועי מאפס — Zappy וובינר
@@ -921,7 +921,7 @@ Q&A פתוח עם עידו סלע
 
 ## מדיניות פרטיות
 
-URL: https://zappy-bb098b57.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1168,7 +1168,7 @@ Zappy וובינר ("החברה", "אנו", "שלנו") מחויבת להגן ע
 
 ## הצהרת נגישות
 
-URL: https://zappy-bb098b57.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1424,7 +1424,7 @@ Zappy וובינר מחויבת להנגיש את השירותים לכלל הצ
 
 ## תנאי שימוש
 
-URL: https://zappy-bb098b57.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
