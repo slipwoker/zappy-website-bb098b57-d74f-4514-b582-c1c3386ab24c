@@ -695,6 +695,461 @@
 }
 
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-features-section {
+  position: relative;
+  overflow: visible;
+  background-color: #0D0118;
+  background-image:
+    radial-gradient(ellipse at 70% 20%, rgba(255, 0, 131, 0.18) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 80%, rgba(60, 10, 100, 0.45) 0%, transparent 50%),
+    linear-gradient(160deg, #0D0118 0%, #1A0A2E 50%, #2D0A4E 100%);
+  color: var(--text-light);
+  padding: 90px 16px 80px;
+  direction: rtl;
+}
+
+/* Decorative orbs */
+.index-features-section .index-features-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+.index-features-section .index-features-orb:first-child {
+  width: 600px;
+  height: 600px;
+  top: -120px;
+  inset-inline-end: -100px;
+  background: radial-gradient(circle, rgba(255, 0, 131, 0.12) 0%, transparent 70%);
+}
+.index-features-section .index-features-orb--secondary {
+  width: 400px;
+  height: 400px;
+  bottom: 60px;
+  inset-inline-start: -80px;
+  background: radial-gradient(circle, rgba(169, 92, 255, 0.1) 0%, transparent 70%);
+}
+
+/* Container */
+.index-features-section .index-features-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.index-features-section .index-features-header {
+  text-align: center;
+  margin-bottom: 56px;
+  max-width: 720px;
+  margin-inline: auto;
+  margin-bottom: 56px;
+}
+
+.index-features-section .index-features-eyebrow {
+  display: inline-block;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  background: rgba(255, 0, 131, 0.12);
+  border: 1px solid rgba(255, 0, 131, 0.3);
+  border-radius: 100px;
+  padding: 6px 18px;
+  margin-bottom: 20px;
+}
+
+.index-features-section .index-features-title {
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-light);
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.index-features-section .index-features-title-highlight {
+  background: linear-gradient(135deg, #FF0083 0%, #FF4FA3 60%, #D9C7FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.index-features-section .index-features-subtitle {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 253, 254, 0.7);
+  margin: 0;
+  text-align: center;
+}
+
+/* Grid */
+.index-features-section .index-features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-bottom: 64px;
+  direction: rtl;
+}
+
+/* Card */
+.index-features-section .index-features-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 0, 131, 0.15);
+  padding: 28px 24px;
+  position: relative;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+}
+
+.index-features-section .index-features-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255, 0, 131, 0.05) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.index-features-section .index-features-card:hover {
+  border-color: rgba(255, 0, 131, 0.5);
+  box-shadow: 0 0 40px rgba(255, 0, 131, 0.2), 0 16px 48px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+}
+
+.index-features-section .index-features-card:hover::before {
+  opacity: 1;
+}
+
+.index-features-section .index-features-card-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Number badge */
+.index-features-section .index-features-number {
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: rgba(255, 0, 131, 0.08);
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -0.04em;
+}
+
+/* Icon wrap */
+.index-features-section .index-features-icon-wrap {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.index-features-section .index-features-icon-wrap--pink {
+  background: linear-gradient(135deg, #FF0083 0%, #FF4FA3 100%);
+  box-shadow: 0 8px 24px rgba(255, 0, 131, 0.35);
+}
+.index-features-section .index-features-icon-wrap--purple {
+  background: linear-gradient(135deg, #7C3AED 0%, #A855F7 100%);
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.35);
+}
+.index-features-section .index-features-icon-wrap--teal {
+  background: linear-gradient(135deg, #0D9488 0%, #2DD4BF 100%);
+  box-shadow: 0 8px 24px rgba(13, 148, 136, 0.35);
+}
+.index-features-section .index-features-icon-wrap--orange {
+  background: linear-gradient(135deg, #EA580C 0%, #FB923C 100%);
+  box-shadow: 0 8px 24px rgba(234, 88, 12, 0.35);
+}
+.index-features-section .index-features-icon-wrap--blue {
+  background: linear-gradient(135deg, #2563EB 0%, #60A5FA 100%);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.35);
+}
+
+/* Card content */
+.index-features-section .index-features-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.index-features-section .index-features-card-title {
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-light);
+  margin: 0 0 8px;
+  text-align: right;
+}
+
+.index-features-section .index-features-card-desc {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(255, 253, 254, 0.65);
+  margin: 0;
+  text-align: right;
+}
+
+/* Bottom row: image + CTA */
+.index-features-section .index-features-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Image */
+.index-features-section .index-features-image-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.index-features-section .index-features-image-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 0, 131, 0.2);
+  object-fit: cover;
+}
+
+.index-features-section .index-features-image-glow {
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  box-shadow: inset 0 0 60px rgba(255, 0, 131, 0.15);
+  pointer-events: none;
+}
+
+/* CTA Wrap */
+.index-features-section .index-features-cta-wrap {
+  text-align: right;
+  width: 100%;
+  max-width: 560px;
+}
+
+.index-features-section .index-features-cta-label {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.index-features-section .index-features-cta-heading {
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-light);
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.index-features-section .index-features-cta-text {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 253, 254, 0.65);
+  margin: 0 0 28px;
+}
+
+/* CTA Button */
+.index-features-section .btn-pill.index-features-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  padding: 16px 36px;
+  background: linear-gradient(135deg, #FF0083 0%, #C2185B 100%);
+  color: #fff;
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 16px 48px rgba(255, 0, 131, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  letter-spacing: 0.01em;
+}
+
+.index-features-section .btn-pill.index-features-cta-btn:hover {
+  box-shadow: 0 20px 60px rgba(255, 0, 131, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Trust items */
+.index-features-section .index-features-cta-trust {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.index-features-section .index-features-cta-trust span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgba(255, 253, 254, 0.75);
+}
+
+.index-features-section .index-features-cta-trust span i {
+  color: var(--primary);
+  font-size: 0.875rem;
+}
+
+/* ─── DESKTOP ─── */
+@media (min-width: 768px) {
+  .index-features-section {
+    padding: 100px 40px 90px;
+  }
+
+  .index-features-section .index-features-title {
+    font-size: 2.75rem;
+  }
+
+  .index-features-section .index-features-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .index-features-section .index-features-card-title {
+    font-size: 1.25rem;
+  }
+
+  .index-features-section .index-features-bottom {
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .index-features-section .index-features-image-wrap {
+    max-width: 480px;
+    width: 45%;
+  }
+
+  .index-features-section .index-features-cta-wrap {
+    max-width: none;
+    flex: 1;
+  }
+
+  .index-features-section .index-features-cta-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .index-features-section {
+    padding: 110px 60px 100px;
+  }
+
+  .index-features-section .index-features-title {
+    font-size: 3rem;
+  }
+
+  .index-features-section .index-features-grid {
+    gap: 28px;
+  }
+
+  .index-features-section .index-features-bottom {
+    gap: 72px;
+  }
+
+  .index-features-section .index-features-image-wrap {
+    max-width: 520px;
+  }
+}
+
+/* ─── MOBILE OVERRIDES ─── */
+@media (max-width: 767px) {
+  .index-features-section .index-features-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .index-features-section .index-features-bottom {
+    flex-direction: column !important;
+  }
+
+  .index-features-section .index-features-cta-trust {
+    justify-content: center;
+  }
+
+  .index-features-section .index-features-cta-wrap {
+    text-align: center;
+  }
+
+  .index-features-section .index-features-cta-label,
+  .index-features-section .index-features-cta-heading,
+  .index-features-section .index-features-cta-text {
+    text-align: center;
+  }
+
+  .index-features-section .index-features-cta-trust {
+    justify-content: center;
+  }
+
+  .index-features-section .index-features-card-inner {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .index-features-section .index-features-number {
+    font-size: 2.5rem;
+  }
+
+  .index-features-section .index-features-orb:first-child {
+    width: 300px;
+    height: 300px;
+    top: -60px;
+    inset-inline-end: -60px;
+  }
+
+  .index-features-section .index-features-orb--secondary {
+    width: 200px;
+    height: 200px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1300,171 +1755,130 @@
   </div>
 </section>
 
-<section data-band-index="1" id="features" class="index-features-section" data-layout-spec="בית-features" dir="rtl">
-  <!-- Grain texture overlay -->
-  <div class="index-features-grain" aria-hidden="true"></div>
-
-  <!-- Abstract blob decoration -->
-  <svg class="index-features-blob-left" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="200" cy="200" rx="200" ry="180" fill="#F8D0E8" opacity="0.45"></ellipse>
-  </svg>
-  <svg class="index-features-blob-right" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="150" cy="150" rx="150" ry="130" fill="#D9C7FF" opacity="0.25"></ellipse>
-  </svg>
+<section class="index-features-section" data-layout-spec="בית-features" dir="rtl" id="features">
+  <!-- Decorative background orb -->
+  <div class="index-features-orb" aria-hidden="true"></div>
+  <div class="index-features-orb index-features-orb--secondary" aria-hidden="true"></div>
 
   <div class="index-features-container">
-    <!-- Intro block -->
-    <div class="index-features-intro">
-      <p><span class="index-features-badge" style="color: rgb(42, 31, 47) !important;">מה יהיה בוובינר</span>
-      </p><h2 class="index-features-heading" style="outline: none; max-width: 1400px; margin-left: auto; margin-right: auto;" data-zappy-text-width="custom">כל מה שתלמדו<br><em>בשעה אחת</em></h2>
-      <p class="index-features-subheading" style="color: rgb(42, 31, 47) !important;">עידו סלע, מנכ"ל Zappy, ייקח אתכם צעד אחר צעד — מהיכרות עם הפלטפורמה ועד לאתר חי שעובד. ללא ידע טכני, ללא בלבול, רק תוצאות.</p>
+    <!-- Section Header -->
+    <div class="index-features-header">
+      <span class="index-features-eyebrow">מה תלמדו בוובינר</span>
+      <h2 class="index-features-title">כל מה שצריך לבנות אתר<br><span class="index-features-title-highlight">מקצועי — בשעה אחת</span></h2>
+      <p class="index-features-subtitle">וובינר חי ואינטראקטיבי עם עידו סלע, מנכ"ל Zappy — מבניית אתר בזמן אמת ועד טכניקות SEO שמביאות תוצאות</p>
     </div>
 
-    <!-- Feature grid -->
-    <div class="index-features-grid zappy-preserve-css-grid" id="zappy-auto-grid-1779356977739-7ocku1" data-zappy-auto-grid="true" data-zappy-grid-align="start" data-original-item-width="384" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+    <!-- Features Grid -->
+    <div class="index-features-grid">
 
-      <!-- Tile 1 -->
-      <article class="index-feature-tile index-feature-tile--offset-up" data-grid-item-index="0">
-        <div class="index-feature-tile-signal" aria-hidden="true">
-          <svg data-no-icon-edit="true" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10,70 Q30,50 50,60 T80,40" stroke="#FF0083" stroke-width="1.5" fill="none" opacity="0.35"></path>
-            <path d="M0,55 Q20,40 40,48 T70,30" stroke="#D9C7FF" stroke-width="1" fill="none" opacity="0.3"></path>
-          </svg>
+      <!-- Card 1 -->
+      <article class="index-features-card">
+        <div class="index-features-card-inner">
+          <span class="index-features-number">01</span>
+          <div class="index-features-icon-wrap index-features-icon-wrap--pink">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"></rect><path d="M3 9h18"></path><path d="M9 21V9"></path></svg>
+          </div>
+          <div class="index-features-card-content">
+            <h3 class="index-features-card-title">בניית אתר בזמן אמת</h3>
+            <p class="index-features-card-desc">עידו בונה אתר עסקי מלא מאפס ישירות בפניכם — כך תראו בדיוק איך פלטפורמת Zappy עובדת ומה היא מסוגלת לעשות.</p>
+          </div>
         </div>
-        <div class="index-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"></circle>
-            <path d="M10 16h12M16 10v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <div class="index-feature-content">
-          <h3>היכרות עם פלטפורמת Zappy</h3>
-          <p>מה זה בדיוק Zappy, למי היא מתאימה ולמה היא משנה את כללי המשחק לבעלי עסקים שרוצים אתר מקצועי — בלי להזדקק למפתח.</p>
-        </div>
-        <div class="index-feature-tile-number" aria-hidden="true">01</div>
       </article>
 
-      <!-- Tile 2 -->
-      <article class="index-feature-tile" data-grid-item-index="1">
-        <div class="index-feature-tile-signal" aria-hidden="true">
-          <svg data-no-icon-edit="true" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5,65 Q25,45 45,55 T75,35" stroke="#FF4FA3" stroke-width="1.5" fill="none" opacity="0.35"></path>
-            <path d="M15,75 Q35,55 55,62 T80,45" stroke="#D9C7FF" stroke-width="1" fill="none" opacity="0.25"></path>
-          </svg>
+      <!-- Card 2 -->
+      <article class="index-features-card">
+        <div class="index-features-card-inner">
+          <span class="index-features-number">02</span>
+          <div class="index-features-icon-wrap index-features-icon-wrap--purple">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+          </div>
+          <div class="index-features-card-content">
+            <h3 class="index-features-card-title">הכרת הפלטפורמה מ-A עד Z</h3>
+            <p class="index-features-card-desc">סיור מעמיק בכל הכלים והיכולות של Zappy — עורך הגרירה, תבניות מקצועיות, ניהול תוכן ועוד — הכל בהדרכה ישירה.</p>
+          </div>
         </div>
-        <div class="index-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="4" y="6" width="24" height="18" rx="3" stroke="currentColor" stroke-width="2"></rect>
-            <path d="M10 26h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M9 12l5 4-5 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M17 18h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <div class="index-feature-content">
-          <h3>בניית אתר מאפס בזמן אמת</h3>
-          <p>תראו בדיוק איך בונים אתר לעסק מאפס — בשידור חי, צעד אחר צעד. תוך דקות ספורות מסך ריק הופך לאתר מקצועי ומרשים.</p>
-        </div>
-        <div class="index-feature-tile-number" aria-hidden="true">02</div>
       </article>
 
-      <!-- Tile 3 -->
-      <article class="index-feature-tile index-feature-tile--offset-up" data-grid-item-index="2">
-        <div class="index-feature-tile-signal" aria-hidden="true">
-          <svg data-no-icon-edit="true" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8,60 Q28,42 48,52 T78,32" stroke="#FF0083" stroke-width="1.5" fill="none" opacity="0.3"></path>
-            <path d="M0,72 Q20,55 40,63 T72,45" stroke="#FF4FA3" stroke-width="1" fill="none" opacity="0.2"></path>
-          </svg>
+      <!-- Card 3 -->
+      <article class="index-features-card">
+        <div class="index-features-card-inner">
+          <span class="index-features-number">03</span>
+          <div class="index-features-icon-wrap index-features-icon-wrap--teal">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+          </div>
+          <div class="index-features-card-content">
+            <h3 class="index-features-card-title">טכניקות SEO שעובדות</h3>
+            <p class="index-features-card-desc">לומדים את הסודות לקידום אורגני: מחקר מילות מפתח, אופטימיזציית תוכן, מטא-תגיות ואיך גוגל מדרג אתרים עסקיים.</p>
+          </div>
         </div>
-        <div class="index-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M6 8h20v16H6z" stroke="currentColor" stroke-width="2" rx="2"></path>
-            <path d="M10 13h12M10 17h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <circle cx="24" cy="22" r="5" fill="var(--primary)" stroke="none"></circle>
-            <path d="M22 22l1.5 1.5L26 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-        <div class="index-feature-content">
-          <h3>יצירת אתר מקצועי תוך דקות</h3>
-          <p>הכלים של Zappy תוכננו כדי שתוכלו לבנות אתר לבד — בלי קוד, בלי תסכול. מתבניות מוכנות ועד עיצוב מותאם אישית.</p>
-        </div>
-        <div class="index-feature-tile-number" aria-hidden="true">03</div>
       </article>
 
-      <!-- Tile 4 -->
-      <article class="index-feature-tile" data-grid-item-index="3">
-        <div class="index-feature-tile-signal" aria-hidden="true">
-          <svg data-no-icon-edit="true" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12,68 Q32,48 52,58 T80,38" stroke="#D9C7FF" stroke-width="1.5" fill="none" opacity="0.4"></path>
-            <path d="M4,55 Q24,38 44,46 T76,28" stroke="#FF0083" stroke-width="1" fill="none" opacity="0.25"></path>
-          </svg>
+      <!-- Card 4 -->
+      <article class="index-features-card">
+        <div class="index-features-card-inner">
+          <span class="index-features-number">04</span>
+          <div class="index-features-icon-wrap index-features-icon-wrap--orange">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="index-features-card-content">
+            <h3 class="index-features-card-title">שאלות ותשובות חיות</h3>
+            <p class="index-features-card-desc">סשן Q&amp;A פתוח עם עידו סלע — שאלו כל שאלה על בניית אתרים, שיווק דיגיטלי, ואיך להצמיח את העסק שלכם אונליין.</p>
+          </div>
         </div>
-        <div class="index-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="4" y="4" width="10" height="10" rx="2" stroke="currentColor" stroke-width="2"></rect>
-            <rect x="18" y="4" width="10" height="10" rx="2" stroke="currentColor" stroke-width="2"></rect>
-            <rect x="4" y="18" width="10" height="10" rx="2" stroke="currentColor" stroke-width="2"></rect>
-            <rect x="18" y="18" width="10" height="10" rx="2" stroke="currentColor" stroke-width="2"></rect>
-          </svg>
-        </div>
-        <div class="index-feature-content">
-          <h3>סיור במערכת הניהול</h3>
-          <p>ניהול תוכן, עיצוב דינמי, אנליטיקס מתקדמת וכלים חזקים נוספים — כל מה שצריך לנהל ולצמוח, במקום אחד נוח.</p>
-        </div>
-        <div class="index-feature-tile-number" aria-hidden="true">04</div>
       </article>
 
-      <!-- Tile 5 -->
-      <article class="index-feature-tile index-feature-tile--offset-up" data-grid-item-index="4">
-        <div class="index-feature-tile-signal" aria-hidden="true">
-          <svg data-no-icon-edit="true" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6,62 Q26,44 46,54 T76,34" stroke="#FF4FA3" stroke-width="1.5" fill="none" opacity="0.35"></path>
-            <path d="M2,74 Q22,56 42,64 T74,46" stroke="#D9C7FF" stroke-width="1" fill="none" opacity="0.3"></path>
-          </svg>
+      <!-- Card 5 -->
+      <article class="index-features-card">
+        <div class="index-features-card-inner">
+          <span class="index-features-number">05</span>
+          <div class="index-features-icon-wrap index-features-icon-wrap--blue">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          </div>
+          <div class="index-features-card-content">
+            <h3 class="index-features-card-title">אתר מהיר ומותאם מובייל</h3>
+            <p class="index-features-card-desc">גלו איך Zappy מייצרת אתרים שנטענים בשניות ונראים מושלם בכל מכשיר — מסמארטפון ועד מסך שולחן עבודה.</p>
+          </div>
         </div>
-        <div class="index-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="16" cy="12" r="6" stroke="currentColor" stroke-width="2"></circle>
-            <path d="M8 28c0-4.418 3.582-8 8-8s8 3.582 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M22 6l3-2M22 18l3 2M10 6L7 4M10 18L7 20" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <div class="index-feature-content">
-          <h3>להופיע ראשון בגוגל — SEO</h3>
-          <p>הטכניקות הכי עדכניות לקידום אורגני שכל בעל עסק חייב לדעת — כיצד לבנות אתר לבד שגוגל יאהב ויקדם אותו מהיום הראשון.</p>
-        </div>
-        <div class="index-feature-tile-number" aria-hidden="true">05</div>
       </article>
 
-      <!-- Tile 6 -->
-      <article class="index-feature-tile" data-grid-item-index="5">
-        <div class="index-feature-tile-signal" aria-hidden="true">
-          <svg data-no-icon-edit="true" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10,66 Q30,46 50,56 T78,36" stroke="#FF0083" stroke-width="1.5" fill="none" opacity="0.3"></path>
-            <path d="M0,50 Q20,34 40,42 T72,24" stroke="#FF4FA3" stroke-width="1" fill="none" opacity="0.2"></path>
-          </svg>
+      <!-- Card 6 -->
+      <article class="index-features-card">
+        <div class="index-features-card-inner">
+          <span class="index-features-number">06</span>
+          <div class="index-features-icon-wrap index-features-icon-wrap--pink">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+          </div>
+          <div class="index-features-card-content">
+            <h3 class="index-features-card-title">השקת אתר תוך שעה</h3>
+            <p class="index-features-card-desc">מסיימים את הוובינר עם אתר פעיל ומקצועי — לא הבטחות, לא תיאוריה. תוצאות מוחשיות שתוכלו לשתף כבר למחרת.</p>
+          </div>
         </div>
-        <div class="index-feature-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M16 4l2.5 7.5H26l-6.5 4.5 2.5 7.5L16 19l-6 4.5 2.5-7.5L6 11.5h7.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-            <path d="M10 26h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <div class="index-feature-content">
-          <h3>Q&amp;A פתוח עם עידו סלע</h3>
-          <p>שאלו הכל, קבלו תשובות ישירות מהמנכ"ל. הזדמנות נדירה להבין בדיוק איך להתחיל ולהצליח עם הפלטפורמה.</p>
-        </div>
-        <div class="index-feature-tile-number" aria-hidden="true">06</div>
       </article>
 
     </div>
-    <!-- End grid -->
-  </div>
 
-  <!-- Bottom curved divider to plum/dark section -->
-  <div class="index-features-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,55 Q150,20 300,38 T600,28 Q750,18 900,36 T1200,22 L1200,90 Z" fill="#1A0A2E"></path>
-    </svg>
+    <!-- Image + CTA Row -->
+    <div class="index-features-bottom">
+      <div class="index-features-image-wrap">
+        <img data-context="A modern laptop screen showing the Zappy website builder interface with a Hebrew business website being built in real-time, pink and purple UI elements, drag-and-drop editor visible, professional and energetic tech atmosphere, dark background with vibrant pink accents" width="600" height="400" src="/assets/zappy-web-development-platform-saas-section-בית-features-index-features-image-1.webp" alt="פלטפורמת Zappy לבניית אתרים - תצוגת עורך">
+        <div class="index-features-image-glow" aria-hidden="true"></div>
+      </div>
+      <div class="index-features-cta-wrap">
+        <p class="index-features-cta-label">מוכנים לבנות את האתר שלכם?</p>
+        <h3 class="index-features-cta-heading">הצטרפו לוובינר החי<br>ותצאו עם אתר עובד</h3>
+        <p class="index-features-cta-text">הרשמה חינמית — מקומות מוגבלים. הוובינר מתקיים בזום עם עידו סלע, מנכ"ל Zappy.</p>
+        <a href="#register" class="btn-pill index-features-cta-btn">
+          <i class="fa fa-bolt" aria-hidden="true"></i>
+          הרשמה חינמית עכשיו
+        </a>
+        <div class="index-features-cta-trust">
+          <span><i class="fa fa-check-circle" aria-hidden="true"></i> ללא עלות</span>
+          <span><i class="fa fa-check-circle" aria-hidden="true"></i> ללא ידע טכני</span>
+          <span><i class="fa fa-check-circle" aria-hidden="true"></i> תוצאות מיידיות</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
