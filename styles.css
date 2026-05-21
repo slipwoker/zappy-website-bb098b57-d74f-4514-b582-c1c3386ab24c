@@ -6326,6 +6326,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-features-section .index-features-card:nth-child(6) .index-features-icon-wrap svg {
   display: none;
 }
+
+.index-features-section .index-features-icon-wrap svg {
+  display: none;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
