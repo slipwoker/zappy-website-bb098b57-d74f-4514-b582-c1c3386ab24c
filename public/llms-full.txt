@@ -280,6 +280,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
+
 מי עומד מאחורי הוובינר
 
 ## עידו סלע מראה לך איך בונים אתר לעסק — בזמן אמת
