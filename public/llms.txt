@@ -1,0 +1,75 @@
+# Zappy וובינר — Generative Engine Optimization Map
+
+> Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live website creation, platform onboarding, SEO techniques, and an open Q&A session. The brand uses a bold pink (#ff0083) and white color palette with dark gray accents, projecting a modern, energetic, and approachable tech identity aimed at empowering non-technical entrepreneurs to build professional websites quickly.
+
+---
+
+## Pages
+
+### בית
+https://zappy-bb098b57.zappy5.app
+Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live webs
+
+## Legal & Policy
+
+### Privacy Policy
+https://zappy-bb098b57.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://zappy-bb098b57.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://zappy-bb098b57.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://zappy-bb098b57.zappy5.app
+- Endpoint: https://zappy-bb098b57.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (text)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Zappy וובינר
+Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live website creation, platform onboarding, SEO techniques, and an open Q&A session. The brand uses a bold pink (#ff0083) and white color palette with dark gray accents, projecting a modern, energetic, and approachable tech identity aimed at empowering non-technical entrepreneurs to build professional websites quickly.
+
+## Services/Products
+- היכרות עם פלטפורמת זאפי
+- בניית אתר מאפס בזמן אמת
+- סיור במערכת הניהול — תוכן, עיצוב, אנליטיקס
+- טכניקות קידום אורגני בגוגל
+- Q&A פתוח עם עידו סלע
+
+## Target Audience
+- בעלי עסקים שרוצים לבנות אתר מקצועי, יזמים, אנשים שמחפשים להופיע ראשון בגוגל
+- מפתחי אתרים פרילנסרים
+- אנשי שיווק דיגיטלי
+- בעלי עסקים
+- בוני אתרים
+
+## Industry
+Web Development Platform / SaaS
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://zappy-bb098b57.zappy5.app/sitemap.xml
+- Robots: https://zappy-bb098b57.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://zappy-bb098b57.zappy5.app/llms-full.txt
