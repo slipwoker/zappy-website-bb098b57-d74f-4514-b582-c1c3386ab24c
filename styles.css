@@ -6063,14 +6063,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 .index-hero-section .index-hero-img {
   display: block;
-  width: 100%;
+  width: 400px;
   height: auto;
   border-radius: 20px;
   box-shadow: none;
   transform: none;
   transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
   object-fit: cover;
-  max-width: 100%;
+  max-width: 400px;
 }
 
 .index-hero-section .index-hero-image-frame:hover .index-hero-img {
