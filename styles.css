@@ -4499,8 +4499,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 .index-cta-section__form-wrapper {
   width: 100%;
-  background: rgba(255, 253, 254, 0.92);
-  border: 1px solid rgba(255, 0, 131, 0.25);
+  background: linear-gradient(135deg, rgba(255, 0, 131, 0.18) 0%, rgba(217, 199, 255, 0.14) 40%, rgba(124, 58, 237, 0.12) 100%);
+  border: 1px solid rgba(255, 0, 131, 0.3);
   border-radius: 20px;
   padding: 40px;
   box-shadow: 0 8px 40px rgba(255, 0, 131, 0.12);
