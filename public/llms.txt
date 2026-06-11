@@ -7,21 +7,21 @@
 ## Pages
 
 ### בית
-https://example.com
+https://zappy-webinar.zappy5.app
 Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live webs
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://zappy-webinar.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://zappy-webinar.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://zappy-webinar.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -34,8 +34,8 @@ Information about WCAG compliance and accessibility features.
 - Address: ניצני עוז, ישראל
 
 ### Contact form
-- URL: https://example.com
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://zappy-webinar.zappy5.app
+- Endpoint: https://zappy-webinar.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -73,6 +73,6 @@ Web Development Platform / SaaS
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://zappy-webinar.zappy5.app/sitemap.xml
+- Robots: https://zappy-webinar.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://zappy-webinar.zappy5.app/llms-full.txt
