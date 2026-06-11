@@ -4499,7 +4499,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 .index-cta-section__form-wrapper {
   width: 100%;
-  background: linear-gradient(135deg, rgba(255, 0, 131, 0.18) 0%, rgba(217, 199, 255, 0.14) 40%, rgba(124, 58, 237, 0.12) 100%);
+  background: linear-gradient(135deg, rgba(255,0,131,0.3) 0%, rgba(255,79,163,0.2) 30%, rgba(217,199,255,0.12) 70%, rgba(124,58,237,0.08) 100%);
   border: 1px solid rgba(255, 0, 131, 0.3);
   border-radius: 20px;
   padding: 40px;
