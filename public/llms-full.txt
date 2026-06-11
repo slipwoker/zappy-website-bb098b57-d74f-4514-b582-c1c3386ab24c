@@ -537,7 +537,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 - info@zappy5.com
 
-- [business_phone]
+- 0559609000
 
 - ניצני עוז, ישראל
 
@@ -751,7 +751,7 @@ Zappy וובינר ("החברה", "אנו", "שלנו") מחויבת להגן ע
 
 - אימייל: info@zappy5.com
 
-- טלפון: [business_phone]
+- טלפון: 0559609000
 
 - כתובת: ניצני עוז, ישראל
 
@@ -810,7 +810,7 @@ Zappy וובינר ("החברה", "אנו", "שלנו") מחויבת להגן ע
 
 - info@zappy5.com
 
-- [business_phone]
+- 0559609000
 
 - ניצני עוז, ישראל
 
@@ -1032,7 +1032,7 @@ Zappy וובינר מחויבת להנגיש את השירותים לכלל הצ
 
 - אימייל: info@zappy5.com
 
-- טלפון: [business_phone]
+- טלפון: 0559609000
 
 
 
@@ -1092,7 +1092,7 @@ Zappy וובינר מחויבת להנגיש את השירותים לכלל הצ
 
 - info@zappy5.com
 
-- [business_phone]
+- 0559609000
 
 - ניצני עוז, ישראל
 
@@ -1337,7 +1337,7 @@ Zappy וובינר מספקת Web Development Platform / SaaS דרך האתר. �
 
 - אימייל: info@zappy5.com
 
-- טלפון: [business_phone]
+- טלפון: 0559609000
 
 - כתובת: ניצני עוז, ישראל
 
@@ -1393,7 +1393,7 @@ Zappy וובינר מספקת Web Development Platform / SaaS דרך האתר. �
 
 - info@zappy5.com
 
-- [business_phone]
+- 0559609000
 
 - ניצני עוז, ישראל
 
