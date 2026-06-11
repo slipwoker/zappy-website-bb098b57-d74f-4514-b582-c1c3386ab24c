@@ -6407,6 +6407,15 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   --gradient-light-section: linear-gradient(180deg, #FFF0F5 0%, #FFE0EC 100%);
   --gradient-overlay-light: linear-gradient(135deg, rgba(255,0,131,0.18) 0%, rgba(26,10,22,0.6) 100%);
 }
+
+.index-hero-section .index-hero-gradient-text {
+  background: linear-gradient(135deg, #FF8FD4 0%, #FF2D9B 60%, var(--primary-color) 100%);
+  background-clip: text;
+}
+
+.index-hero-section .index-hero-gradient-text {
+  background: linear-gradient(135deg, #FF8FD4 0%, #FF2D9B 60%, var(--primary-color) 100%) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
