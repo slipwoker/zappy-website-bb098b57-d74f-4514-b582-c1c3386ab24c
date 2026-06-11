@@ -3943,8 +3943,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 
   .index-stats-section__badges {
-    gap: 8px;
-  }
+  gap: 8px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: stretch;
+}
 
   .index-stats-section__badge {
     font-size: 0.8125rem;
