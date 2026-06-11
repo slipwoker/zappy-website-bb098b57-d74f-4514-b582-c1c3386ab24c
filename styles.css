@@ -6064,7 +6064,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: block;
   width: 400px;
   height: auto;
-  border-radius: 20px;
+  border-radius: 0px;
   box-shadow: none;
   transform: none;
   transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
@@ -6073,7 +6073,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .index-hero-section .index-hero-image-frame:hover .index-hero-img {
-  transform: none;
+  transform: translateY(-4px);
+  box-shadow: none;
 }
 
 /* Floating live badge */
