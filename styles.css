@@ -6370,6 +6370,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   letter-spacing: 1.5px !important;
 }
 }
+
+@media (max-width: 768px) {
+.index-about-section .about-intro {
+  font-size: 0.9rem !important;
+  line-height: 1.6 !important;
+  overflow-wrap: break-word !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
