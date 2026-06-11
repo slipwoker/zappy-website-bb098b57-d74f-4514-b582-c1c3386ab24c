@@ -5853,7 +5853,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   position: relative;
   overflow: visible;
   background-color: #2A1F2F;
-  background-image: radial-gradient(ellipse at 80% 20%, rgba(255,0,131,0.18) 0%, transparent 55%), radial-gradient(ellipse at 10% 80%, rgba(217,199,255,0.12) 0%, transparent 50%), linear-gradient(160deg, #1A0A2E 0%, #2A1F2F 60%, #3A1040 100%);
+  background-image: radial-gradient(ellipse at 80% 20%, rgba(255,0,131,0.22) 0%, transparent 55%), radial-gradient(ellipse at 10% 80%, rgba(255,79,163,0.15) 0%, transparent 50%), linear-gradient(160deg, #1A0A16 0%, #2D0A1E 60%, #3A1040 100%);
   color: var(--text-light);
   direction: rtl;
   padding: 140px 24px 100px;
@@ -6395,6 +6395,17 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   height: auto !important;
   max-width: none !important;
   display: block !important;
+}
+
+:root {
+  --gradient-primary: linear-gradient(135deg, #FF2D9B 0%, var(--primary-color) 40%, #E6006A 100%);
+  --gradient-gold-shine: linear-gradient(135deg, #FF6EC7 0%, #FF2D9B 50%, var(--primary-color) 100%);
+  --gradient-secondary: linear-gradient(180deg, #2D0A1E 0%, #3A1040 60%, #4A1050 100%);
+  --gradient-gold-accent: linear-gradient(90deg, #FF8FD4 0%, #FF2D9B 100%);
+  --gradient-dark-section: linear-gradient(180deg, #1A0A16 0%, #2D0A1E 100%);
+  --gradient-overlay-dark: linear-gradient(180deg, rgba(26,10,22,0) 0%, rgba(26,10,22,0.95) 100%);
+  --gradient-light-section: linear-gradient(180deg, #FFF0F5 0%, #FFE0EC 100%);
+  --gradient-overlay-light: linear-gradient(135deg, rgba(255,0,131,0.18) 0%, rgba(26,10,22,0.6) 100%);
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
