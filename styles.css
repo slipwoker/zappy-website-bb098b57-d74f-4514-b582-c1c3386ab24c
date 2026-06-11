@@ -6330,6 +6330,46 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-features-section .index-features-icon-wrap svg {
   display: none;
 }
+
+@keyframes hero-date-pulse {
+  0%, 100% { 
+    transform: scale(1); 
+    box-shadow: 0 0 20px rgba(255, 0, 131, 0.3);
+  }
+  50% { 
+    transform: scale(1.05); 
+    box-shadow: 0 0 40px rgba(255, 0, 131, 0.6);
+  }
+}
+
+.index-hero-section .index-hero-text-col > p:first-child {
+  text-align: center !important;
+  max-width: none !important;
+  width: auto !important;
+  display: block !important;
+}
+
+.index-hero-section .index-hero-text-col > p:first-child span {
+  font-size: 18px !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  background-color: rgba(255, 0, 131, 0.18) !important;
+  padding: 10px 24px !important;
+  border-radius: 100px !important;
+  border: 1px solid rgba(255, 0, 131, 0.4) !important;
+  display: inline-block !important;
+  box-shadow: 0 0 30px rgba(255, 0, 131, 0.3) !important;
+  animation: hero-date-pulse 2s ease-in-out infinite !important;
+  color: var(--text-light) !important;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .index-hero-text-col > p:first-child span {
+  font-size: 15px !important;
+  padding: 8px 18px !important;
+  letter-spacing: 1.5px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
