@@ -6381,31 +6381,6 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   overflow-wrap: break-word !important;
 }
 }
-
-.index-hero-section .index-hero-image-frame {
-  height: auto !important;
-  position: relative;
-}
-
-.index-hero-section .index-hero-image-frame > div[data-zappy-zoom-wrapper] {
-  position: relative !important;
-  height: auto !important;
-  width: 100% !important;
-  max-width: none !important;
-  top: auto !important;
-  left: auto !important;
-  overflow: visible !important;
-}
-
-.index-hero-section .index-hero-image-frame > div[data-zappy-zoom-wrapper] .index-hero-img {
-  position: relative !important;
-  left: auto !important;
-  top: auto !important;
-  width: 100% !important;
-  height: auto !important;
-  max-width: none !important;
-  display: block !important;
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
