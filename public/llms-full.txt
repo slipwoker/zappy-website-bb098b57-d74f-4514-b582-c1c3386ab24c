@@ -436,19 +436,12 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-שמרו לי מקום בוובינר
 
 
 
 
 
 
-
-
-### רוצים לדעת עוד לפני ההרשמה?
-
-
-השאירו פרטים ונחזור אליכם עם כל המידע על הוובינר
 
 
 
@@ -479,8 +472,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-
-שלחו את הפרטים
+הרשמה
 
 
 
