@@ -384,6 +384,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
+
 המספרים מדברים בעד עצמם
 
 ## למה Zappy משנה את כללי המשחק
@@ -396,7 +397,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-5 דק׳
+7 דק׳
 
 
 מספיקות לבנות אתר מקצועי מאפס בזמן אמת
