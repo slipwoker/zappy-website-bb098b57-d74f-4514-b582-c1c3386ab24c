@@ -131,7 +131,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 מה תלמדו בוובינר
 
-## כל מה שצריך לבנות אתרמקצועי — בשעה אחת
+## כל מה שצריך כדי לבנות אתרמקצועי — בשעה אחת
 
 
 
