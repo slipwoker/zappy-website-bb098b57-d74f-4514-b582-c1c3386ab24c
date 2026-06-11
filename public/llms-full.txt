@@ -373,7 +373,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 ∞
 
 
-אפשרויות עיצוב, אנליטיקס, CRM, ניוזלטר, וניהול תוכן לצמיחת העסק
+אפשרויות לקדם את העסק שלך לשלב הבא
 
 
 
@@ -382,15 +382,18 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-דמו חי בזמן אמת
+אתר מלא ב-7 דקות
 
 
 
-תהליך עבודה אמיתי
+
+תוכן מותאם אישית
 
 
 
-פלטפורמה לצמיחת עסקים
+
+רספונסיביות מושלמת
+
 
 
 
@@ -398,7 +401,9 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-Q&A פתוח עם עידו סלע
+
+
+ממשק עריכה פשוט - בלי קוד בכלל!
 
 
 
