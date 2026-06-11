@@ -6065,7 +6065,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 0px;
+  border-radius: 20px;
   box-shadow: none;
   transform: none;
   transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
