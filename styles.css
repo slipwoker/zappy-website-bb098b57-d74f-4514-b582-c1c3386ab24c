@@ -6417,6 +6417,15 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-hero-section .index-hero-gradient-text {
   background: linear-gradient(135deg, #FF8FD4 0%, #FF2D9B 60%, var(--primary-color) 100%) !important;
 }
+
+.index-hero-section .index-hero-gradient-text {
+  background: none !important;
+  color: #FF6EC7 !important;
+}
+
+.index-hero-section .index-hero-text-col > p:first-child span {
+  color: #FF6EC7 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
