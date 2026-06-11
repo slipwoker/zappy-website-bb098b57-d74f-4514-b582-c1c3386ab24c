@@ -97,7 +97,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 הרשמה חינמית לוובינר
-קרא עוד על הפלטפורמה
+
 
 
 
@@ -133,8 +133,6 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 ## כל מה שצריך לבנות אתרמקצועי — בשעה אחת
 
-
-וובינר חי ואינטראקטיבי עם עידו סלע, מנכ"ל Zappy — מבניית אתר בזמן אמת ועד טכניקות SEO שמביאות תוצאות
 
 
 
