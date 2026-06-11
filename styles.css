@@ -5850,18 +5850,11 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: flex !important;
 }
 
-/* ═══════════════════════════════════════════════════════════
-   V2 REGENERATED SECTION CSS (בית-hero)
-   Added: 2026-05-21T09:40:11.143Z
-   ═══════════════════════════════════════════════════════════ */
 .index-hero-section {
   position: relative;
   overflow: visible;
   background-color: #2A1F2F;
-  background-image:
-    radial-gradient(ellipse at 80% 20%, rgba(255,0,131,0.18) 0%, transparent 55%),
-    radial-gradient(ellipse at 10% 80%, rgba(217,199,255,0.12) 0%, transparent 50%),
-    linear-gradient(160deg, #1A0A2E 0%, #2A1F2F 60%, #3A1040 100%);
+  background-image: radial-gradient(ellipse at 80% 20%, rgba(255,0,131,0.18) 0%, transparent 55%), radial-gradient(ellipse at 10% 80%, rgba(217,199,255,0.12) 0%, transparent 50%), linear-gradient(160deg, #1A0A2E 0%, #2A1F2F 60%, #3A1040 100%);
   color: var(--text-light);
   direction: rtl;
   padding: 140px 24px 100px;
