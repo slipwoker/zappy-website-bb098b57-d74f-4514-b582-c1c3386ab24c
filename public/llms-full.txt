@@ -499,7 +499,6 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-
 בנה אתר מקצועי בלי קוד — מהיר, חכם, ומרשים. Zappy וובינר מעצים בעלי עסקים להפוך את החזון הדיגיטלי שלהם למציאות.
 
 
