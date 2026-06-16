@@ -6426,6 +6426,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-hero-section .index-hero-text-col > p:first-child span {
   color: #FF6EC7 !important;
 }
+
+.index-features-section,
+.index-about-section,
+.index-stats-section,
+.index-cta-section {
+  animation: zappy-section-fade-in 0.8s ease both;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
