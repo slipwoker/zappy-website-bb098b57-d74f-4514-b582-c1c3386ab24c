@@ -3827,7 +3827,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   font-size: clamp(3rem, 5vw, 4.5rem);
   font-weight: 700;
   line-height: 1;
-  color: var(--text-light);
+  color: var(--text-dark);
   margin-block-end: 4px;
   letter-spacing: -0.02em;
   -webkit-text-stroke: 1px rgba(255,0,131,0.6);
@@ -3855,7 +3855,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   font-family: 'Rubik', sans-serif;
   font-size: 0.875rem;
   line-height: 1.6;
-  color: #6B7280;
+  color: var(--text-dark);
   margin: 0;
 }
 
