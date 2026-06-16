@@ -6494,6 +6494,37 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
   opacity: 1;
   transform: translateY(0);
 }
+
+.index-hero-section {
+  animation: zappyFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.index-features-section {
+  animation: zappyFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.12s both;
+}
+
+.index-about-section {
+  animation: zappyFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.24s both;
+}
+
+.index-stats-section {
+  animation: zappyFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.36s both;
+}
+
+.index-cta-section {
+  animation: zappyFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.48s both;
+}
+
+@keyframes zappyFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
