@@ -161,26 +161,31 @@
       // Track button clicks (counted as actions)
       if (target.tagName === 'BUTTON' || target.closest('button')) {
         var button = target.tagName === 'BUTTON' ? target : target.closest('button');
-        trackEvent('click', {
+        var clickMeta = {
           element: 'button',
           text: button.textContent.trim().substring(0, 100),
           id: button.id || null,
           class: button.className || null
-        });
+        };
+        
+        trackEvent('click', clickMeta);
       }
       
       // Track link clicks (navigation - not counted as actions)
       else if (target.tagName === 'A' || target.closest('a')) {
         var link = target.tagName === 'A' ? target : target.closest('a');
-        trackEvent('navigation', {
+        var navMeta = {
           element: 'link',
           text: link.textContent.trim().substring(0, 100),
           href: link.href,
           external: link.hostname !== window.location.hostname
-        });
+        };
+        
+        trackEvent('navigation', navMeta);
       }
     }, true);
   }
+  
   
   // Track form submissions
   if (config.trackFormSubmissions) {
@@ -1715,7 +1720,7 @@
 </script>
   
   <main id="main">
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="side-by-side" id="hero" style="min-height: 1128.32px !important;">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="side-by-side" id="hero" style="min-height: 815.214px !important;">
   <!-- Decorative radial glow -->
   <div class="index-hero-glow-orb" aria-hidden="true"></div>
 
@@ -1747,7 +1752,7 @@
     <!-- Image Column (Left) -->
     <div class="index-hero-image-col">
       <div class="index-hero-image-frame">
-        <div data-zappy-zoom-wrapper="true" data-element-id="img-1779356756189-jfgk5mqhl" data-element-type="image" data-zappy-zoom-wrapper-width="560px" data-zappy-zoom-wrapper-height="751px" data-zappy-zoom-wrapper-width-mode="full" data-zappy-zoom-wrapper-align="center" style="position: absolute !important; width: 100% !important; display: block; aspect-ratio: 560 / 751; overflow: hidden !important; height: 100% !important; min-height: 150px !important; top: 0px !important; left: 0px !important; max-width: none !important; z-index: 1 !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img class="index-hero-img" data-placeholder="hero-presenter-image" data-context="Ido Sela, CEO of Zappy, professional portrait photo. Bald man with arms crossed, wearing a dark striped short-sleeve shirt, confident and approachable smile, professional webinar presenter. Clean background." src="/assets/site-----image-1-remove_background-remove_background-remove_background-remove_background-1781183718442-gj3qsz.png?v=1781183718442" alt="עידו סלע, מנכ&quot;ל Zappy" width="560" height="680" data-element-type="image" data-element-id="img-1779356756189-jfgk5mqhl" style="object-position: 50% 50% !important; object-fit: cover !important; width: 100% !important; height: 100% !important; display: block !important; position: absolute !important; max-width: none !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important;" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-original-width="560" data-zappy-original-height="751.0000610351562"></div>
+        <div data-zappy-zoom-wrapper="true" data-element-id="img-1779356756189-jfgk5mqhl" data-element-type="image" data-zappy-zoom-wrapper-width="560px" data-zappy-zoom-wrapper-height="850px" data-zappy-zoom-wrapper-width-mode="full" data-zappy-zoom-wrapper-align="center" style="position: absolute !important; width: 100% !important; display: block; aspect-ratio: 560 / 751; overflow: hidden !important; height: 100% !important; min-height: 150px !important; top: 0px !important; left: 0px !important; max-width: none !important; z-index: 1 !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img class="index-hero-img" data-placeholder="hero-presenter-image" data-context="Ido Sela, CEO of Zappy, professional portrait photo. Bald man with arms crossed, wearing a dark striped short-sleeve shirt, confident and approachable smile, professional webinar presenter. Clean background." src="/assets/site-----image-1-remove_background-remove_background-remove_background-remove_background-1781183718442-gj3qsz.png?v=1781183718442" alt="עידו סלע, מנכ&quot;ל Zappy" width="560" height="680" data-element-type="image" data-element-id="img-1779356756189-jfgk5mqhl" style="object-position: 50% 50% !important; object-fit: cover !important; width: 100% !important; height: 100% !important; display: block !important; position: absolute !important; max-width: none !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important;" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-original-width="560" data-zappy-original-height="751.0000610351562"></div>
 </div>
     </div>
   </div>
