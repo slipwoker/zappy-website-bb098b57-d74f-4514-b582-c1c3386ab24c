@@ -4502,6 +4502,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   border-radius: 20px;
   padding: 40px;
   box-shadow: 0 8px 40px rgba(255, 0, 131, 0.12);
+  padding-top: 0;
 }
 
 .index-cta-section__form-header {
