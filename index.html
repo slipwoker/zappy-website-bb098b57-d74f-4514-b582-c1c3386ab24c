@@ -1765,7 +1765,7 @@
   </div>
 </section>
 
-<section class="index-features-section" data-layout-spec="בית-features" dir="rtl" id="features" style="min-height: 1301.35px !important;">
+<section class="index-features-section" data-layout-spec="בית-features" dir="rtl" id="features" style="min-height: 1301.35px !important;" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0s">
   <!-- Decorative background orb -->
   <div class="index-features-orb" aria-hidden="true"></div>
   <div class="index-features-orb index-features-orb--secondary" aria-hidden="true"></div>
@@ -1892,7 +1892,7 @@
   </div>
 </section>
 
-<section data-band-index="2" id="about" class="index-about-section" data-layout-spec="בית-about" dir="rtl">
+<section data-band-index="2" id="about" class="index-about-section" data-layout-spec="בית-about" dir="rtl" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0s">
   <!-- Decorative background blobs -->
   <div class="about-blob about-blob-1" aria-hidden="true"></div>
   <div class="about-blob about-blob-2" aria-hidden="true"></div>
@@ -1938,7 +1938,7 @@
 
 
 
-<section data-band-index="4" id="stats" class="index-stats-section" data-layout-spec="בית-stats" dir="rtl">
+<section data-band-index="4" id="stats" class="index-stats-section" data-layout-spec="בית-stats" dir="rtl" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0s">
   <!-- Background signal-wave texture -->
   <div class="index-stats-section__bg-texture" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="index-stats-section__wave-svg">
@@ -2020,7 +2020,7 @@
 
 
 
-<section data-band-index="6" id="cta" class="index-cta-section" data-layout-spec="בית-cta" dir="rtl">
+<section data-band-index="6" id="cta" class="index-cta-section" data-layout-spec="בית-cta" dir="rtl" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0s">
   <!-- Decorative mesh gradient halo -->
   <div class="index-cta-section__halo" aria-hidden="true"></div>
   <div class="index-cta-section__halo-secondary" aria-hidden="true"></div>
@@ -2168,7 +2168,26 @@
   </a>
   
   <div data-integration="accessibility:toolbar"></div>
-
+<script data-zappy-animation-observer="">(function() {
+  if (window.__zappyAnimObserver) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var anim = el.getAttribute('data-zappy-animate');
+        var dur = el.getAttribute('data-zappy-anim-duration') || '0.6s';
+        var del = el.getAttribute('data-zappy-anim-delay') || '0s';
+        el.style.animation = 'zappy-' + anim + ' ' + dur + ' ' + del + ' ease forwards';
+        el.classList.add('zappy-animated');
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('[data-zappy-animate]').forEach(function(el) {
+    observer.observe(el);
+  });
+  window.__zappyAnimObserver = observer;
+})();</script>
     <script src="/script.js"></script>
 
     <script id="zappy-mobile-submenu-script">
