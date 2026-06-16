@@ -6475,6 +6475,25 @@ to { opacity: 1; transform: scale(1); } }
 to { opacity: 1; transform: perspective(400px) rotateY(0); } }
 to { opacity: 1; transform: rotate(0) scale(1); } }
 
+
+.index-hero-section,
+.index-features-section,
+.index-about-section,
+.index-stats-section,
+.index-cta-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.index-hero-section.visible,
+.index-features-section.visible,
+.index-about-section.visible,
+.index-stats-section.visible,
+.index-cta-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
