@@ -6683,6 +6683,13 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
   display: inline-block !important;
   box-shadow: 0 8px 32px rgba(255, 0, 131, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
+
+.index-hero-section .index-hero-h1 {
+  animation: index-hero-typewriter 2.5s steps(25, end) 0.3s 1 normal both;
+  white-space: nowrap;
+  overflow: visible;
+  display: inline-block;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
