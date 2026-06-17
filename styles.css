@@ -6745,6 +6745,19 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 .index-features-section .index-features-cta-wrap .index-features-cta-text {
   text-align: center !important;
 }
+
+.index-features-section .index-features-bottom {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.index-features-section .index-features-cta-wrap {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 600px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
