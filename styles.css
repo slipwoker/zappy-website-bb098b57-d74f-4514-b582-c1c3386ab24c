@@ -6429,11 +6429,8 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 /* === BUTTON TEXT OVERRIDES START === */
 .navbar .nav-cta-btn,
 .nav-cta-btn { color: #FFFFFF !important; }
-/* === BUTTON TEXT OVERRIDES END === */
-
-
 .site-footer, .site-footer h3, .site-footer p, .site-footer a, .site-footer span, .site-footer li {
-  color: var(--text-color) !important;
+  color: #4A4A4A !important;
 }
 
 .site-footer a:hover {
@@ -6441,15 +6438,15 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 }
 
 .site-footer .footer-heading {
-  color: var(--text-color) !important;
+  color: #4A4A4A !important;
 }
 
 .site-footer .footer-tagline {
-  color: var(--text-secondary-color) !important;
+  color: #4A4A4A !important;
 }
 
 .site-footer .footer-copy {
-  color: var(--text-secondary-color) !important;
+  color: #4A4A4A !important;
 }
 
 .site-footer .footer-divider {
