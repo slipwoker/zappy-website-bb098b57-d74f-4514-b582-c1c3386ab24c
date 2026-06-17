@@ -6690,6 +6690,17 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
   overflow: visible;
   display: inline-block;
 }
+
+@keyframes reveal-letters {
+  0% { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+.index-hero-section .index-hero-h1 {
+  animation: reveal-letters 2.5s steps(25, end) 0.3s 1 normal both !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
