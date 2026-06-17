@@ -6758,6 +6758,10 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
   margin-right: auto !important;
   max-width: 600px !important;
 }
+
+.index-features-section .index-features-card {
+  border: 1px solid rgba(0,0,0,0.08) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
