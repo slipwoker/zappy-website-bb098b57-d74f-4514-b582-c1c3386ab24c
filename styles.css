@@ -4303,7 +4303,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   filter: blur(50px);
 }
 
-/* Container */
 .index-cta-section__container {
   position: relative;
   z-index: 1;
@@ -4312,7 +4311,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 56px;
+  gap: 28px;
 }
 
 /* Header */
