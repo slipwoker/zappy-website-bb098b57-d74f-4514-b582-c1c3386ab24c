@@ -6634,6 +6634,27 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
     transform: translateY(0);
   }
 }
+
+@keyframes statsPinkGlow {
+  0%, 100% { box-shadow: 0 0 0 rgba(255, 0, 131, 0); }
+  50% { box-shadow: 0 0 30px rgba(255, 0, 131, 0.25), 0 0 60px rgba(255, 0, 131, 0.1); }
+}
+
+.index-stats-section__metric {
+  animation: statsFadeUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards, statsPinkGlow 3s ease-in-out infinite;
+}
+
+.index-stats-section__metric:nth-child(1) {
+  animation-delay: 0.1s, 0.1s;
+}
+
+.index-stats-section__metric:nth-child(2) {
+  animation-delay: 0.25s, 0.25s;
+}
+
+.index-stats-section__metric:nth-child(3) {
+  animation-delay: 0.4s, 0.4s;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
