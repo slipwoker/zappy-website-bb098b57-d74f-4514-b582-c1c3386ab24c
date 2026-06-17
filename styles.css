@@ -6673,6 +6673,16 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 .index-features-section .btn-pill.index-features-cta-btn {
   animation: subtle-pink-glow-v2 2.5s ease-in-out infinite !important;
 }
+
+.index-features-section .index-features-title {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 18px !important;
+  padding: 24px 32px !important;
+  display: inline-block !important;
+  box-shadow: 0 8px 32px rgba(255, 0, 131, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
