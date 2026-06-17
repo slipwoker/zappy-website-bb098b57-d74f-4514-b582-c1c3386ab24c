@@ -173,7 +173,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-### הכרת הפלטפורמה מ-A עד Z
+### הכרת הפלטפורמה מA עד Z
 
 
 סיור מעמיק בכל הכלים והיכולות של Zappy — עורך AI , תבניות מקצועיות, ניהול תוכן, CRM, מייל מותאם אישית, ניוזלטר ועוד — הכל בהדרכה ישירה.
