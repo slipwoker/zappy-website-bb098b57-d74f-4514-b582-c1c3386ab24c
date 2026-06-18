@@ -6761,6 +6761,26 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 }
 /* Batch: Changing all black/dark text across the entire site to #4A4A4A (dark gray instead of pure black) */
 body, .site-footer, .site-footer p, .site-footer span, .site-footer li, .site-footer a, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .index-about-section, .index-about-section p, .index-about-section h2, .index-about-section h3, .index-about-section span, .index-about-section li, .index-about-section a, .index-stats-section, .index-stats-section p, .index-stats-section h2, .index-stats-section h3, .index-stats-section span, .index-stats-section li, .index-stats-section a, .index-cta-section, .index-cta-section p, .index-cta-section h1, .index-cta-section h2, .index-cta-section span, .index-cta-section li, .index-cta-section a, .index-cta-section label, .index-features-section .index-features-card, .index-features-section .index-features-card-title, .index-features-section .index-features-card-desc { color: #4A4A4A; } .site-footer a:hover { color: var(--accent); }
+
+to { opacity: 1; } }
+to { opacity: 1; transform: translateY(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: scale(1); } }
+60% { opacity: 1; transform: translateY(-5px); } 100% { transform: translateY(0); } }
+to { opacity: 1; transform: perspective(400px) rotateY(0); } }
+to { opacity: 1; transform: rotate(0) scale(1); } }
+
+
+to { opacity: 1; } }
+to { opacity: 1; transform: translateY(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: scale(1); } }
+60% { opacity: 1; transform: translateY(-5px); } 100% { transform: translateY(0); } }
+to { opacity: 1; transform: perspective(400px) rotateY(0); } }
+to { opacity: 1; transform: rotate(0) scale(1); } }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
