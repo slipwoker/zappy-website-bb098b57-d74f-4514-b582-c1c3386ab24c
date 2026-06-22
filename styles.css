@@ -6781,6 +6781,26 @@ to { opacity: 1; transform: scale(1); } }
 to { opacity: 1; transform: perspective(400px) rotateY(0); } }
 to { opacity: 1; transform: rotate(0) scale(1); } }
 
+
+.zappy-hero-section__whatsapp-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(37, 211, 102, 0.5);
+}
+
+@media (max-width: 768px) {
+.zappy-hero-section__whatsapp-btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: 8px;
+}
+}
+/* zappy-self-heal */
+.zappy-hero-section__whatsapp-btn { width: 100% !important; }
+.zappy-hero-section__whatsapp-btn { margin-top: 8px !important; }
+
+/* zappy-self-heal */
+html body .zappy-hero-section__whatsapp-btn { width: 100% !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
