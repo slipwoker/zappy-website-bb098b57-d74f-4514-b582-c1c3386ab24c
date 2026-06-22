@@ -10,6 +10,10 @@
 https://zappy-webinar.zappy5.app
 Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live webs
 
+### תודה שפניתם | Zappy וובינר
+https://zappy-webinar.zappy5.app/thank-you
+Zappy וובינר - תודה שפניתם | Zappy וובינר
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -43,7 +47,7 @@ Information about WCAG compliance and accessibility features.
   - `email` (email, required)
   - `phone` (tel, required)
   - `message` (text)
-  - `privacy_consent` (checkbox, required)
+  - `privacy_consent` (checkbox)
 
 ---
 
