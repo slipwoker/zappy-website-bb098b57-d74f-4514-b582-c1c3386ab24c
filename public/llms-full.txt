@@ -2,13 +2,13 @@
 
 Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live website creation, platform onboarding, SEO techniques, and an open Q&A session. The brand uses a bold pink (#ff0083) and white color palette with dark gray accents, projecting a modern, energetic, and approachable tech identity aimed at empowering non-technical entrepreneurs to build professional websites quickly.
 
-Source: https://zappy-webinar.zappy5.app
+Source: https://webinar.zappy5.com
 
 ---
 
 ## איך לבנות אתר מקצועי מאפס — Zappy וובינר
 
-URL: https://zappy-webinar.zappy5.app
+URL: https://webinar.zappy5.com
 Description: Zappy is a website-building platform positioned as a game-changer for business owners. The webinar is hosted by Ido Sela, CEO of Zappy, and focuses on live webs
 
 איך לבנות אתר מקצועי מאפס — Zappy וובינר
@@ -85,7 +85,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-יום שלישי | 30/6/2026 | 20:00
+יום שלישי | 30/6/2026 | 19:00
 
 # אתר מקצועי בשעה אחת
 
@@ -422,7 +422,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-30/6/26 | יום שלישי | 20:00
+30/6/26 | יום שלישי | 19:00
 
 
 ##
@@ -573,7 +573,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 ## מדיניות פרטיות
 
-URL: https://zappy-webinar.zappy5.app/privacy
+URL: https://webinar.zappy5.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -843,7 +843,7 @@ Zappy וובינר ("החברה", "אנו", "שלנו") מחויבת להגן ע
 
 ## הצהרת נגישות
 
-URL: https://zappy-webinar.zappy5.app/accessibility
+URL: https://webinar.zappy5.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1122,7 +1122,7 @@ Zappy וובינר מחויבת להנגיש את השירותים לכלל הצ
 
 ## תנאי שימוש
 
-URL: https://zappy-webinar.zappy5.app/terms
+URL: https://webinar.zappy5.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1420,7 +1420,7 @@ Zappy וובינר מספקת Web Development Platform / SaaS דרך האתר. �
 
 ## תודה שפניתם | Zappy וובינר
 
-URL: https://zappy-webinar.zappy5.app/thank-you
+URL: https://webinar.zappy5.com/thank-you
 Description: Zappy וובינר - תודה שפניתם | Zappy וובינר
 
 תודה שפניתם | Zappy וובינר

@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://zappy-webinar.zappy5.app/sitemap.xml
+Sitemap: https://webinar.zappy5.com/sitemap.xml
