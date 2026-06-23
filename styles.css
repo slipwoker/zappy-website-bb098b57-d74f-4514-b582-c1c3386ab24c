@@ -6814,6 +6814,22 @@ html body .zappy-hero-section__whatsapp-btn { width: 100% !important; }
 .navbar .nav-container {
   justify-content: flex-start !important;
 }
+
+.nav-container .nav-right-group {
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+.nav-container .nav-right-group .nav-brand {
+  margin-left: 0 !important;
+  margin-inline-end: 0 !important;
+}
+/* zappy-self-heal */
+.nav-container .nav-right-group { width: auto !important; }
+
+/* zappy-self-heal */
+html body .nav-container .nav-right-group { width: auto !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
