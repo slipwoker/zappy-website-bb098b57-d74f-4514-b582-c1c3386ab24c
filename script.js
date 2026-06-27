@@ -1389,6 +1389,37 @@ window.onload = function() {
     }
 })();
 
+/* ZAPPY_CUSTOM_JS_START:dd4a8cb26273 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+// Meta Pixel form submission tracking
+(function() {
+  var form = document.querySelector('#contact-form form.contact-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function(e) {
+    // Fire Meta Pixel Lead event on form submission
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'Lead', {
+        content_name: 'Webinar Registration',
+        content_category: 'Registration'
+      });
+    }
+  });
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:dd4a8cb26273 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
