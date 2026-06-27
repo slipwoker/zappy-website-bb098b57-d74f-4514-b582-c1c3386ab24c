@@ -43,6 +43,8 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
+
+
 דלג לתוכן הראשי
 
 
@@ -594,6 +596,8 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 
+
+
 מה אומרים עלינו
 
 ## בעלי עסקים שבנו אתר לבד — ולא האמינו שזה אפשרי
@@ -847,6 +851,8 @@ URL: https://webinar.zappy5.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
+
+
 
 
 
@@ -1126,6 +1132,8 @@ URL: https://webinar.zappy5.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
+
+
 
 
 
@@ -1424,6 +1432,8 @@ URL: https://webinar.zappy5.com/thank-you
 Description: Zappy וובינר - תודה שפניתם | Zappy וובינר
 
 תודה שפניתם | Zappy וובינר
+
+
 
 
 
