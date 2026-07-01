@@ -87,7 +87,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-יום שלישי | 30/6/2026 | 19:00
+יום שלישי | 7/7/2026 | 19:00
 
 # אתר מקצועי בשעה אחת
 
@@ -424,7 +424,7 @@ Description: Zappy is a website-building platform positioned as a game-changer f
 
 
 
-30/6/26 | יום שלישי | 19:00
+7/7/26 | יום שלישי | 19:00
 
 
 ##
